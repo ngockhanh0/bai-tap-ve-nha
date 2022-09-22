@@ -1,0 +1,63 @@
+#picture{
+    justify-content: center;
+    display: flex;
+}
+#box{
+    display: flex;
+    justify-content: center;
+
+}
+#picture1{
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    display: flex;
+    animation: 800ms linear; 
+}
+#picture2{
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    display: flex;
+    animation: 800ms linear; 
+}
+#picture3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    animation: 800ms linear;
+}
+#picture4{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    display: flex;
+}
+.Tom:hover #picture1{   
+        transform: translateX(0px) rotate(0deg);    
+        transform: translateX(-100px) rotate(90deg);  
+        transition-duration: 2s; 
+}
+.Tom:hover #picture2{   
+    transform: translateX(0px) rotate(0deg);    
+    transform: translateX(100px) rotate(90deg);  
+    transition-duration: 2s;
+}
+.Tom:hover #picture3 {   
+        transform: translateX(0px) rotate(0deg);    
+        transform: translateX(-100px) rotate(90deg);  
+        transition-duration: 2s;
+}
+.Tom:hover #picture4 {   
+    transform: translateX(0px) rotate(0deg);    
+    transform: translateX(100px) rotate(90deg);  
+    transition-duration: 2s;
+}
+.Tom{position: relative;
+}
+.next{
+    position: absolute;
+    top: 95px;
+    left: 620px;
+}
